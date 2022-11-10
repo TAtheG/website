@@ -1,0 +1,523 @@
+.first{
+  text-align: center;
+  font-size: 19px;
+}
+
+.page1{
+  background-color: #000;
+color: #ccc;
+
+
+}
+
+
+
+
+
+
+.cap1{
+  text-align: center;
+  
+}
+
+.endb{
+background-color: #000;
+}
+
+.endc{
+  color: rgb(223, 211, 211);
+  }
+  
+    .title{
+        font-size:50px;
+        display:flex;
+        text-align:center;
+        justify-content: center;
+        background-color: brown;
+   
+    }
+
+#navbar{
+    text-align: center;
+    font-size: 27px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: black;
+}
+
+#navbar a{
+    color:antiquewhite;
+    text-decoration:none;
+}
+
+#navbar a:hover{
+    color:red;
+    text-decoration:none;
+}
+
+.hometitle{
+    color: black;
+    font-size: 20px;
+    text-align:center;
+}
+
+
+.labled{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    }
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .copyright{
+    font-size:10px;
+    color:white;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+  }
+
+.kyoto1{
+    font-size:50px;
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    background-color: brown;
+}
+
+.kyotointo{
+    font-size:25px;
+    color: #cc4e4e;
+}
+
+
+.kyhead{
+  background-color: #000;
+}
+
+
+.send1{
+  font-size:20px;
+    color: #cc4e4e;
+}
+
+
+.copy{
+  color:rgb(241, 239, 239);
+
+}
+
+
+
+.kyoto2{
+    text-align:center;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    text-decoration: underline;     
+    text-decoration-color: rgb(203, 203, 209);  
+        }     
+
+.cup1{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 10px solid rgb(231, 224, 224);
+}
+
+.osm1{
+  font-size: 19px;
+  color:rgb(255, 255, 255);
+
+
+
+}
+
+
+
+
+
+.kyimg1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.kyimg2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.kyimg3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.kyimg4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.kyimg5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color:red;
+  }
+  
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 125px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(1,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  
+  }
+
+  
+/* Container holding the image and the text */
+
+  
+
+
+  /* Centered text */
+.b1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 125px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(1,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  
+  }
+
+  .o1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 125px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(1,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  
+  }
+
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .nolumn {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .nard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #a53a3a;
+    color: white;
+  }
+  
+  .nontainer {
+    padding: 0 16px;
+  }
+  
+  .nontainer::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .nitle {
+    color: grey;
+  }
+  
+  .nutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .nutton:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .nolumn {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+.lol{
+  color:antiquewhite;
+  text-decoration:none;
+}
+
+
+
+
+.q1{
+  font-size:40px;
+        text-align:center;
+}
+
+
+
+.q2{
+  font-size:20px;
+        text-align:center;
+}
+
+
+
+.q3{
+  font-size:20px;
+        text-align:center;
+}
+
+q4{
+ 
+  width:40%;
+}
+
+.os1{
+color: rgb(255, 255, 255);
+font-size:50px;
+text-decoration: underline;     
+text-decoration-color: rgb(250, 250, 253);  
+text-align:center;
+}
+
+.osdb{
+  background: #b11522;
+}
+
+.osd2{
+  color: #f1f1f1;
+  font-size:19px;
+}
+
+
+.tog1{
+  background-color: #0c0202;
+}
+
+
+
+.hometitle{
+  color: #f2f2f2;
+  font-size: 50px;
+}
+
+
+.dun{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zo1{
+  text-align: center;
+}
+
+
+
+
+
+.endc
+{
+text-align: center;
+font-size: 20px;
+}
+
+
+
+
+
+
+  
+  
+  
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #181a19;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #961520;
+  }
+  
+  /* Style the container/contact section */
+  .con {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .cal {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .rop:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+.tos1{
+  color: rgb(90, 86, 86);
+  font-size:50px;
+  text-decoration: underline;     
+  text-decoration-color:  rgb(90, 86, 86);
+  text-align:center;
+    }
+
+.tos2{
+  color: #f1f1f1;
+  font-size:20px;
+}
+
+.tos3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 10px solid rgb(231, 224, 224);
+}
+
+.tos4{
+  color: #f1f1f1;
+  font-size:19px;
+}
+
+
+.fo1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
